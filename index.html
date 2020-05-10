@@ -1,40 +1,77 @@
+<!doctype html>
 <html>
 <head>
-<title>
-傻琴
-</title>
+<meta charset="utf-8">
+<title>无标题文档</title>
 </head>
-<h1 align="center">
-<h1>
-<p >
-<br>
-<br>
-<marquee behavior="alternate"><font color="red"><font color="yellow">傻琴</font>
-</marquee>
-<br>
-<br>
-<marquee direction=“right” behavior="scroll"><font color="red">神经病</font>
-</marquee>
-<br>
-<br>
-<marquee direction=“left” behavior="scroll">傻狗琴
-</marquee>
-<br>
-<br>
-<marquee behavior="alternate"><font color="red">666666</font>
-</marquee>
-<br>
-<br>
-<marquee behavior="alternate"><font color="red"><font color="yellow">傻狗琴</font>
-</marquee>
-<br>
-<br>
-<marquee direction=“left” behavior="scroll"><font color="blue">傻琴</font>
-</marquee>
-<br>
-<br>
-<marquee direction=“left” behavior="scroll">傻琴
-</marquee>
+
+<body bgcolor="#42EB7F">
+<h1>请填写以下注册信息：</h1>
+<p>
+  <label for="textfield">注册id:</label>
+  <input type="text" name="textfield" id="textfield">
+</p>
+<p>
+  <label for="textfield2">登录密码:</label>
+  <input type="text" name="textfield2" id="textfield2">
+</p>
+<p>
+  <label for="textfield3">验证密码:</label>
+  <input type="text" name="textfield3" id="textfield3">
+</p>
+<p>性别：</p>
+<table width="200">
+  <tr>
+    <td><label>
+      <input type="radio" name="RadioGroup1" value="单选" id="RadioGroup1_0">
+      帅哥</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="radio" name="RadioGroup1" value="单选" id="RadioGroup1_1">
+      美女</label></td>
+  </tr>
+</table>
+<p>学历：
+  <select name="select" id="select">
+    <option>小学</option>
+    <option>初中</option>
+    <option>高中</option>
+    <option>本科生</option>
+    <option>研究生</option>
+    <option>博士</option>
+  </select>
+</p>
+<p>兴趣爱好：</p>
+<table width="285" height="118">
+  <tr>
+    <td><label>
+      <input type="checkbox" name="CheckboxGroup1" value="复选框" id="CheckboxGroup1_0">
+      音乐</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="CheckboxGroup1" value="复选框" id="CheckboxGroup1_1">
+      体育</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="CheckboxGroup1" value="复选框" id="CheckboxGroup1_2">
+      阅读</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="CheckboxGroup1" value="复选框" id="CheckboxGroup1_3">
+      运动</label></td>
+  </tr>
+</table>
+<p>自我介绍：
+  <textarea name="textarea" id="textarea"></textarea>
+</p>
+<p>
+  <input name="提交" type="submit" id="提交" formenctype="multipart/form-data" formmethod="POST" formtarget="_blank" value="提交">
+ 		  
+  <input type="reset" name="reset" id="reset" value="重置">
 </p>
 </body>
 </html>
